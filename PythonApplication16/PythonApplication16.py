@@ -1,3 +1,4 @@
-numbers = [1,2,3,4]
-for elm in numbers:
-    print(elm * elm)
+numbers = []
+for num in range(21):
+    numbers.append(num)
+    print(num * num)
